@@ -20,13 +20,13 @@ Pod::Spec.new do |s|
   s.osx.vendored_libraries      = 'lib/x86_64Release/libdeepstream.io-client-java-j2objc.a'
 
   s.xcconfig = {
-    'HEADER_SEARCH_PATHS'  => '${PODS_ROOT}/DeepstreamIO/j2objc/include ${PODS_ROOT}/DeepstreamIO/src/main/objc'
+    'HEADER_SEARCH_PATHS'  => '${PODS_ROOT}/DeepstreamIO222/j2objc/include ${PODS_ROOT}/DeepstreamIO222/src/main/objc'
   }
   s.ios.xcconfig = {
-    'LIBRARY_SEARCH_PATHS' => '${PODS_ROOT}/DeepstreamIO/j2objc/lib'
+    'LIBRARY_SEARCH_PATHS' => '${PODS_ROOT}/DeepstreamIO222/j2objc/lib'
   }
   s.osx.xcconfig = {
-    'LIBRARY_SEARCH_PATHS' => '${PODS_ROOT}/DeepstreamIO/j2objc/lib/macosx'
+    'LIBRARY_SEARCH_PATHS' => '${PODS_ROOT}/DeepstreamIO222/j2objc/lib/macosx'
   }
 
   s.ios.deployment_target     = '8.3'
