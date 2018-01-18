@@ -1,13 +1,13 @@
 Pod::Spec.new do |s|
   s.name                      = "DeepstreamIO"
-  s.version                   = "2.2.0"
+  s.version                   = "2.2.2"
   s.summary                   = "The open realtime server - a fast, secure and scalable websocket & tcp server for mobile, web & iot"
   s.homepage                  = "https://deepstream.io"
   s.license                   = { :type => 'Apache 2.0', :file => 'LICENSE' }
   s.authors                   = { "Akram Hussein" => 'akramhussein@gmail.com', "Yasser Fadl" => 'yasser.fadl@deepstreamhub.com' }
   s.social_media_url          = "https://twitter.com/deepstreamHub"
 
-  s.source                    = { :http => "http://deepstream.io-client-ios.s3.amazonaws.com/DeepstreamIO-#{s.version}.zip" }
+  s.source                    = { :http => "https://s3.amazonaws.com/newsrush-assets/deepstream/DeepstreamIO-#{s.version}.zip" }
   s.requires_arc              = true
 
   s.public_header_files       = 'src/DeepstreamIO.h'
