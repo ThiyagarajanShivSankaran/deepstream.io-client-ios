@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-  s.name                      = "DeepstreamIO"
+  s.name                      = "DeepstreamIO222"
   s.version                   = "2.2.2"
   s.summary                   = "The open realtime server - a fast, secure and scalable websocket & tcp server for mobile, web & iot"
   s.homepage                  = "https://deepstream.io"
