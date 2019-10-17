@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
   s.authors                   = { "Akram Hussein" => 'akramhussein@gmail.com', "Yasser Fadl" => 'yasser.fadl@deepstreamhub.com' }
   s.social_media_url          = "https://twitter.com/deepstreamHub"
 
-  s.source                    = { :https => "https://geoviewermobiledata.s3.amazonaws.com/DeepstreamIO333-#{s.version}.zip" }
+  s.source                    = { :https => "https://www.dropbox.com/s/r39aszy7kh6qd3b/DeepstreamIO333-2.2.2.zip" }
   s.requires_arc              = true
 
   s.public_header_files       = 'src/DeepstreamIO.h'
