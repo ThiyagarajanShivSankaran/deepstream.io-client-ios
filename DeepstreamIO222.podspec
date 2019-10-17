@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-  s.name                      = "DeepstreamIO222"
+  s.name                      = "DeepstreamIO333"
   s.version                   = "2.2.2"
   s.summary                   = "The open realtime server - a fast, secure and scalable websocket & tcp server for mobile, web & iot"
   s.homepage                  = "https://deepstream.io"
@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
   s.authors                   = { "Akram Hussein" => 'akramhussein@gmail.com', "Yasser Fadl" => 'yasser.fadl@deepstreamhub.com' }
   s.social_media_url          = "https://twitter.com/deepstreamHub"
 
-  s.source                    = { :http => "https://s3.amazonaws.com/newsrush-assets/deepstream/DeepstreamIO-#{s.version}.zip" }
+  s.source                    = { :http => "http://deepstream.io-client-ios.s3.amazonaws.com/DeepstreamIO-#{s.version}.zip" }
   s.requires_arc              = true
 
   s.public_header_files       = 'src/DeepstreamIO.h'
@@ -20,13 +20,13 @@ Pod::Spec.new do |s|
   s.osx.vendored_libraries      = 'lib/x86_64Release/libdeepstream.io-client-java-j2objc.a'
 
   s.xcconfig = {
-    'HEADER_SEARCH_PATHS'  => '${PODS_ROOT}/DeepstreamIO222/j2objc/include ${PODS_ROOT}/DeepstreamIO222/src/main/objc'
+    'HEADER_SEARCH_PATHS'  => '${PODS_ROOT}/DeepstreamIO333/j2objc/include ${PODS_ROOT}/DeepstreamIO333/src/main/objc'
   }
   s.ios.xcconfig = {
-    'LIBRARY_SEARCH_PATHS' => '${PODS_ROOT}/DeepstreamIO222/j2objc/lib'
+    'LIBRARY_SEARCH_PATHS' => '${PODS_ROOT}/DeepstreamIO333/j2objc/lib'
   }
   s.osx.xcconfig = {
-    'LIBRARY_SEARCH_PATHS' => '${PODS_ROOT}/DeepstreamIO222/j2objc/lib/macosx'
+    'LIBRARY_SEARCH_PATHS' => '${PODS_ROOT}/DeepstreamIO333/j2objc/lib/macosx'
   }
 
   s.ios.deployment_target     = '8.3'
